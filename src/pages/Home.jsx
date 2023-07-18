@@ -38,7 +38,7 @@ const Home = () => {
                                 filteredData.map((event) => (
                                     <EventCard key={event.id} event={event} />
                                 )) :
-                                <p>No Events Added yet</p>
+                                <p className="py-12 text-2xl text-black/30 text-center w-full">No Events Added yet</p>
                         }
                     </div>
                 </div>
